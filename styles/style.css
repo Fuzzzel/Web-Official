@@ -1,0 +1,136 @@
+body{
+    background-color: #171717;
+}
+.text1{
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 65px;
+    text-align: center;
+}
+.text2{
+    color: #fcdb03;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 35px;
+    text-align: center;
+}
+.button{
+    position: center;
+    background-color: #171717;
+    color: rgb(255, 255, 255);
+    padding: 13px 28px;
+    border-radius: 5px;
+    display: block;
+    border: 3px solid #fc0303;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.button:hover{
+    border: 3px solid #fc0303;
+    background-color: #fc0303;
+    color: rgb(255, 255, 255);
+}
+.social-menu ul {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    transition: 0.5s;
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #7289da;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color:  rgb(245,96,64);
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: rgb(255,0,0);
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #211F1F;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #ff80ed;
+}
+footer{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.text1:hover{
+    color: rgb(196, 195, 195);
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 65px;
+    text-align: center;
+    transition: 1s;
+}
+.text2:hover{
+    color: #fc9403;
+    font-size: 'Ubuntu Mono', monospace;
+    font-size: 35px;
+    text-align: center;
+    transition: 1s;
+}
+.projects1{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 37px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.projects2{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-shadow: -2px -1px 8px rgba(0, 0, 0);
+    text-align: center;
+}
+.projects3{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    background-color: #000000;
+    color: #ffffff;
+	border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 25px;
+    text-align: center;
+}
+.bodytabulka{
+    background-color: rgb(255, 255, 255);
+    width: 375px;
+    height: 275px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+.pepe{
+    width: 34px;
+    height: 34px;
+}
